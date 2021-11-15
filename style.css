@@ -1,6 +1,11 @@
 h1{
     color: #747460;
+    font-size: 50px;
     font-family: ubuntu;
+    background-color: aquamarine;
+    border: 2px solid #747460;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 h2{
