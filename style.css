@@ -1,13 +1,61 @@
-h1{
-    color: #747460;
-    font-size: 50px;
-    font-family: ubuntu;
-    background-color: aquamarine;
-    border: 2px solid #747460;
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;500&display=swap');
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Jost;
+    background-image: url(./assests/jungleimage.jpg);
+    background-repeat: none;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    background-attachment: fixed;
+}
+.container{
+    width: 60%;
+    height: 600px;
+    background-color: rgba(255 , 255, 255, 0.3);
     border-radius: 8px;
-    padding: 10px;
+    backdrop-filter: blur(5px);
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
-h2{
-    color: #1d019c;
+.sigin{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: none;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+color: rgb(44, 44, 44);
+border-radius: 8px 0px 0px 8px;
+
+
 }
+
+.sigin button{
+backdrop-filter: blur(6px);
+background-color: white;
+color: black;
+font-weight: bold;
+border-radius: 4px;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+font-family: jost;
+
+}
+
+.image{
+    background-image: url("./assests/jangleboook.jpg");
+    border-radius: 0px 8px 8px 0px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    
+}
+
